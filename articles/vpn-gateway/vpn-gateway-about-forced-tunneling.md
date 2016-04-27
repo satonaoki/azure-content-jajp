@@ -111,7 +111,7 @@ Azure では、強制トンネリングは仮想ネットワークのユーザ�
       </VirtualNetworkSite>
 	</VirtualNetworkSite>
 
-この例では、仮想ネットワークである "MultiTier-VNet" には、*Frontend*、*Midtier*、*Backend* の 3 つのサブネットがあり、*DefaultSiteHQ* と 3 つの *Branch* の計 4 つのクロス プレミス接続があります。以下の手順で *DefaultSiteHQ* を強制トンネリングの既定のサイト接続として設定し、強制トンネリングが使用されるように *Midtier* と *Backend* を構成します。
+この例では、仮想ネットワークである "MultiTier-VNet" には、*Frontend* 、 *Midtier* 、 *Backend* の 3 つのサブネットがあり、*DefaultSiteHQ* と 3 つの *Branch* の計 4 つのクロス プレミス接続があります。以下の手順で *DefaultSiteHQ* を強制トンネリングの既定のサイト接続として設定し、強制トンネリングが使用されるように *Midtier* と *Backend* を構成します。
 
 
 1. ルーティング テーブルを作成します。ルート テーブルを作成するには、以下のコマンドレットを使用します。

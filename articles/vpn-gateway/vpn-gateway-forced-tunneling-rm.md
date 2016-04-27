@@ -52,7 +52,7 @@ Azure では、強制トンネリングは仮想ネットワークのユーザ�
 
 次の手順は、リソース グループと VNet の作成に役立ちます。その後、VPN Gateway を作成し、強制トンネリングを構成します。
 
-この例では、仮想ネットワークである ”MultiTier-VNet” には、*Frontend*、*Midtier*、および*Backend* の 3 つのサブネットがあり、 *DefaultSiteHQ*、および 3 つの*Branch* の計 4 つのクロス プレミス接続があります。以下の手順で *DefaultSiteHQ* を強制トンネリングの既定のサイト接続として設定し、強制トンネリングが使用されるように *Midtier* と *Backend* を構成します。
+この例では、仮想ネットワークである ”MultiTier-VNet” には、*Frontend* 、 *Midtier* 、および *Backend* の 3 つのサブネットがあり、 *DefaultSiteHQ* 、および 3 つの *Branch* の計 4 つのクロス プレミス接続があります。以下の手順で *DefaultSiteHQ* を強制トンネリングの既定のサイト接続として設定し、強制トンネリングが使用されるように *Midtier* と *Backend* を構成します。
 
 	
 ### 作業を開始する前に
